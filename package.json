@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/ZigzagAlloy01/cse-341-project2/issues"
   },
-  "homepage": "https://github.com/ZigzagAlloy01/cse-341-project2#readme"
+  "homepage": "https://github.com/ZigzagAlloy01/cse-341-project2#readme",
+  "dependencies": {
+    "express": "^4.21.0"
+  }
 }
