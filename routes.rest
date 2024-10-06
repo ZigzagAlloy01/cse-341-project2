@@ -1,0 +1,29 @@
+GET https://cse-341-project2-blka.onrender.com/clients
+
+GET http://localhost:3000/clients
+
+GET http://localhost:3000/clients/6702e6d2acdcdf6694cc8e77
+
+POST http://localhost:3000/clients HTTP/1.1 content-type: application/json
+
+{
+"name": "Jimena", 
+"email": "arodriguez@test.com", 
+"company": "Green Lab"
+}
+
+PUT http://localhost:3000/clients/6702f59b8d2b2d414efa89b8 HTTP/1.1 content-type: application/json
+
+{
+"name": "Laura", 
+"email": "arodriguez@test.com", 
+"company": "Green Lab"
+}
+
+PUT http://localhost:3000/clients/6702f6378d2b2d414efa89b9 HTTP/1.1 content-type: application/json
+
+{
+"name": "Jimena", "email": "arodriguez@test.com", "company": "Green Lab"
+}
+
+DELETE http://localhost:3000/clients/6702f6378d2b2d414efa89b9 HTTP/1.1
