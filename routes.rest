@@ -23,7 +23,9 @@ PUT http://localhost:3000/clients/6702f59b8d2b2d414efa89b8 HTTP/1.1 content-type
 PUT http://localhost:3000/clients/6702f6378d2b2d414efa89b9 HTTP/1.1 content-type: application/json
 
 {
-"name": "Jimena", "email": "arodriguez@test.com", "company": "Green Lab"
+"name": "Jimena", 
+"email": "arodriguez@test.com", 
+"company": "Green Lab"
 }
 
 DELETE http://localhost:3000/clients/6702f6378d2b2d414efa89b9 HTTP/1.1
